@@ -1,4 +1,6 @@
-:root {
+/* ******************************* Default react project styles ******************************* */
+
+/* :root {
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -108,4 +110,43 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+} */
+
+/* ******************************* Default react project styles ******************************* */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #F5F5F5; 
+  --text: #15151D;
+
+  --green-color: #218369;
+  --grey-color: #505050;
+
+  --font-main: 'Roboto', sans-serif;
+}
+
+[data-theme='dark'] {
+  --bg: #15151D;
+  --text: #F5F5F5; 
+  --grey-color: #505050;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background-color: var(--bg);
+}
+
+#root {
+  /* outline: 1px solid orange; */
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  min-height: 100vh;
 }

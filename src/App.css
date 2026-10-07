@@ -1,4 +1,6 @@
-.counter {
+/* ******************************* Default react project styles ******************************* */
+
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -181,4 +183,130 @@
     right: 0;
     border-right-color: var(--border);
   }
+} */
+
+/* ******************************* Default react project styles ******************************* */
+
+/* Header */
+header {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  /* outline: 1px solid red; */
+}
+
+header svg {
+  color: var(--text);
+}
+
+h1,
+h2,
+h3 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  color: var(--text);
+}
+
+p {
+  margin: 0;
+}
+
+header > h1 {
+  color: var(--green-color, green);
+  font-size: 2.75rem;
+  font-weight: 700;
+  /* outline: 1px solid purple; */
+}
+
+header > h1:hover {
+  cursor: pointer;
+}
+
+header > button {
+  border: none;
+  background-color: var(--bg, white);
+}
+
+.clickable {
+  transition: transform 0.15s ease;
+}
+
+.clickable:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.clickable:active {
+  transform: scale(0.95);
+}
+
+/* Footer */
+footer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  background-color: var(--green-color, green);
+  color: var(--bg);
+  gap: 4px;
+  padding: 28px 0;
+  box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+footer > * {
+  margin: 0;
+  display: flex;
+  gap: 24px;
+}   
+
+footer p {
+  align-items: flex-end;
+  font-size: 1.1rem;
+}
+
+footer svg {
+  color: var(--bg, white);
+}
+
+/* Main */
+main {
+  outline: 1px solid purple;
+  padding: 0 32px 32px;
+  display: flex;
+}
+
+/* Form */
+form {
+  border: 2px solid var(--text);
+  border-radius: 12px;
+  padding: 32px 48px;
+}
+
+.action-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  color: var(--text);
+}
+
+.action-buttons > * {
+  border: none;
+  font-size: 1.25rem;
+  color: var(--bg);
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-weight: 700;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.first-btn {
+  background-color: var(--grey-color);
+}
+
+.second-btn {
+  background-color: var(--green-color);
+}
+
+.deletable-field {
+  display: flex;
 }
