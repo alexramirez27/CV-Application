@@ -1,0 +1,33 @@
+.bullet-points-heading {
+    display: flex;
+    gap: 8px;
+}
+
+.bullet-points-heading > button {
+    background-color: var(--grey-color);
+    color: var(--bg);
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bullet-points-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* outline: 1px solid purple; */
+}
+
+.bullet-points-section .labeled-input {
+    /* outline: 1px solid purple; */
+    display: grid;
+    grid-template-columns: 360px 18px;
+    gap: 8px;
+    font-size: 1.25rem;
+    align-items: center;
+}

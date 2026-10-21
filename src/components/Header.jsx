@@ -1,5 +1,6 @@
 import MoonIcon from "./MoonIcon.jsx";
 import SunIcon from "./SunIcon.jsx";
+import "../styles/Header.css";
 
 export default function Header({ themeMode = "light", toggleTheme }) {
     return (

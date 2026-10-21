@@ -1,0 +1,22 @@
+.date-range {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.date-range label,
+.date-range input {
+  font-size: 1.25rem;
+}
+
+.date-range > div:not(:last-child) {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.date-range > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

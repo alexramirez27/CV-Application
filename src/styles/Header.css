@@ -1,0 +1,25 @@
+header {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  /* outline: 1px solid red; */
+}
+
+header > button {
+  background-color: var(--bg);
+  border: none;
+}
+
+header svg {
+  color: var(--text);
+}
+
+header > h1 {
+  color: var(--green-color, green);
+  font-size: 2.75rem;
+  font-weight: 700;
+}
+
+header > h1:hover {
+  cursor: pointer;
+}

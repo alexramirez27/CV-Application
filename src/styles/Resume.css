@@ -1,0 +1,173 @@
+.resume-page {
+    border: 2px solid var(--text);
+    width: 816px;
+    height: 1056px;
+    background-color: #FFFFFF; 
+    color: #000;
+    font-family: "Times New Roman", Times, serif;
+    flex-shrink: 0;
+    padding: 62.4px 67.2px;
+    overflow: hidden;
+}
+
+.resume-education-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+}
+
+.resume-education-details {
+    flex: 1;
+    min-width: 0;
+}
+
+.resume-education-date {
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.resume-education-entry {
+    font-size: 14.67px; /* 11 pt */
+}
+
+.resume-education h2 {
+    font-size: 17.33px; /* 13 pt */
+    margin: 0 0 5.33px; /* 4 pt below */
+    border-bottom: 0.33px solid #000;
+}
+
+.resume-header h1 {
+    font-size: 29.33px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    color: #000;
+    font-weight: 700;
+}
+
+.resume-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 10.67px;
+}
+
+.resume-contact-info {
+    font-size: 13.33px;
+    text-align: center;
+    margin-top: 5.33px;
+    line-height: normal;
+}
+
+.resume-contact-info > div {
+    margin: 0;
+    padding: 0;
+}
+
+.resume-header {
+    margin-bottom: 10.67px; /* 8 pt */
+}
+
+.resume-education {
+    margin-bottom: 10.67px; /* 8 pt */
+}
+
+.resume-experience h2 {
+    font-size: 17.33px; /* 13 pt */
+    margin: 0 0 5.33px; /* 4 pt below */
+    border-bottom: 0.33px solid #000;
+}
+
+.resume-experience-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    font-size: 14.67px; /* 11 pt */
+}
+
+.resume-experience-date {
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.resume-experience ul {
+    font-size: 13.33px; /* 10 pt */
+    margin: 5.33px 0 0;
+    padding-left: 20px;
+}
+
+.resume-experience li {
+    margin: 0;
+}
+
+.resume-experience-entry + .resume-experience-entry {
+    margin-top: 10.67px; /* 8 pt */
+}
+
+.resume-experience {
+    margin-bottom: 10.67px; /* 8 pt */
+}
+
+.resume-custom-section h2 {
+    font-size: 17.33px; /* 13 pt */
+    margin: 0 0 5.33px; /* 4 pt below */
+    border-bottom: 0.33px solid #000;
+}
+
+.resume-custom-section {
+    margin-bottom: 10.67px; /* 8 pt */
+}
+
+.resume-custom-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    font-size: 14.67px; /* 11 pt */
+}
+
+.resume-custom-date {
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.resume-custom-section h3 {
+    font-size: 14.67px; /* 11 pt */
+    font-weight: normal;
+    margin: 5.33px 0; /* 4 pt above and below */
+}
+
+.resume-custom-section ul {
+    font-size: 13.33px; /* 10 pt */
+    margin: 5.33px 0 0;
+    padding-left: 20px;
+}
+
+.resume-custom-section li {
+    margin: 0;
+}
+
+.resume-education-date,
+.resume-experience-date,
+.resume-custom-date {
+    font-style: italic;
+}
+
+.resume-education-details,
+.resume-experience-heading > div:first-child,
+.resume-custom-heading > div:first-child {
+    font-weight: 700;
+}
+
+.resume-custom-entry + .resume-custom-entry {
+    margin-top: 10.67px; /* 8 pt */
+}
+
+.resume-page,
+.resume-page * {
+    color: #000;
+}

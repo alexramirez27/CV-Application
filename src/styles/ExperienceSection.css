@@ -1,0 +1,22 @@
+.experience-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.experience-section > .fields-and-trash {
+  display: flex;
+}
+
+.experience-section > .fields-and-trash > .fieldset-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.experience-section > .fields-and-trash > button {
+  align-self: center;
+  border: none;
+  color: var(--grey-color);
+  background-color: var(--bg);
+}

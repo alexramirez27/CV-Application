@@ -1,0 +1,35 @@
+form {
+  border: 2px solid var(--text);
+  border-radius: 12px;
+  padding: 32px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+form > .action-buttons:last-of-type {
+  align-self: center;
+}
+
+.custom-section > button {
+  background-color: var(--bg);
+  color: var(--grey-color);
+  width: 48px;
+  align-self: center;
+  border: none;
+}
+
+.custom-section > .custom-entry-add-btn {
+  background-color: var(--grey-color);
+  color: var(--bg);
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}

@@ -1,0 +1,25 @@
+footer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  background-color: var(--green-color, green);
+  color: var(--bg);
+  gap: 4px;
+  padding: 28px 0;
+  box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+footer > * {
+  margin: 0;
+  display: flex;
+  gap: 24px;
+}   
+
+footer p {
+  align-items: flex-end;
+  font-size: 1.1rem;
+}
+
+footer svg {
+  color: var(--text);
+}

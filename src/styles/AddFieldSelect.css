@@ -1,0 +1,22 @@
+.add-field-select {
+  display: grid;
+  grid-template-columns: 160px 196px 64px;
+  gap: 8px;
+  font-size: 1.25rem;
+  align-items: center;
+}
+
+.add-field-select > select {
+  font-weight: 700;
+}
+
+.add-field-select > button {
+  border: none;
+  background-color: var(--grey-color);
+  font-size: 1.125rem;
+  color: var(--bg);
+  padding: 2px 4px;
+  border-radius: 8px;
+  font-weight: 700;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,23 @@
+.subheadings-and-date {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.subheadings-and-date .fields-and-trash {
+  display: flex;
+  gap: 0;
+}
+
+.subheadings-and-date .fieldset-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.subheadings-and-date .fields-and-trash > button {
+  align-self: center;
+  border: none;
+  color: var(--grey-color);
+  background-color: var(--bg);
+}

@@ -1,0 +1,26 @@
+main {
+  padding: 0 32px 32px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 96px;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.download-btn {
+  background-color: var(--green-color);
+  color: var(--bg);
+  border: none;
+  border-radius: 6px;
+  padding: 12px 32px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+}

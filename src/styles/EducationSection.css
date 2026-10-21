@@ -1,0 +1,24 @@
+.education-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.education-section .fields-and-trash {
+  display: flex;
+  gap: 0;
+  /* outline: 1px solid orange; */
+}
+
+.education-section .fieldset-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.fields-and-trash > button {
+  align-self: center;
+  border: none;
+  color: var(--grey-color);
+  background-color: var(--bg);
+}

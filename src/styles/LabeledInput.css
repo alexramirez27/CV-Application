@@ -1,0 +1,12 @@
+.labeled-input {
+  display: grid;
+  grid-template-columns: 160px 296px 18px;
+  gap: 8px;
+  font-size: 1.25rem;
+  align-items: center;
+}
+
+.labeled-input > button {
+  color: var(--grey-color);
+  background-color: var(--bg);
+}
